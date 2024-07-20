@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+form {
+  margin-top: 36px;
+  margin-left: 156px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form label {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.form label input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-left: 16px;
+  margin: 0;
+  transition: border 0.025s;
+  margin-bottom: 30px;
+}
+
+.form label input:hover {
+  border: 1px solid #000;
+}
+
+.form label input:active {
+  border: 1px solid #4e75ff;
+}
+
+.form fieldset {
+  width: 360px;
+  height: 64px;
+  flex-shrink: 0;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: flex-start;
+  margin: 0;
+  margin-bottom: 24px;
+  transition: border 0.025s;
+}
+
+.form fieldset:hover {
+  border: 1px solid #000;
+}
+
+.form fieldset label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding-left: 48px;
+}
+
+.form fieldset label input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+.form button {
+  display: flex;
+  width: 360px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+
+.form button:hover {
+  background: #6c8cff;
+}
